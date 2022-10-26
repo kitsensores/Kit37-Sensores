@@ -1,0 +1,32 @@
+#define F_Sensor 2 // connect DO pin of the flame sensor with the Arduino's digital pin 2
+#define Relay_Buzzer 8 // A relay module is connected with the Arduino's pin number 8
+ 
+ 
+void setup() {
+ 
+  Serial.begin(9600); // Baud Rate
+  Serial.println("Flame Sensor Project by Electronic Clinic");
+  pinMode(F_Sensor, INPUT);//define F_Sensor input pin
+  pinMode(Relay_Buzzer, OUTPUT);//define Relay_Buzzer output pin
+ 
+}
+ 
+void loop() {
+   
+ 
+  int fire = digitalRead(F_Sensor);// read F_Sensor sensor
+ 
+ 
+  if( fire == HIGH)
+  {
+    digitalWrite(Relay_Buzzer,HIGH);// set the buzzer ON
+    Serial.println("Fire Detected");
+  }
+  else
+  {
+    digitalWrite(Relay_Buzzer,LOW); // Set the buzzer OFF
+    Serial.println("Peace");
+  }
+ 
+  delay(1000);
+}
