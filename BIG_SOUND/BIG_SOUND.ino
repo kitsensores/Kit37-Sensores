@@ -1,6 +1,12 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO:O sensor reage na presença de um campo magnético.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ */
 
-int ledPin=13;
-int sensorPin=7;
+int ledPin=13; // define o led 
+int sensorPin=7; // define o sensor 
 boolean val =0;
 
 void setup(){

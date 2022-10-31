@@ -1,5 +1,12 @@
-int hallSensorPin = 2;     
-int ledPin =  13;    
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO:O sensor reage na presença de um campo magnético.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ */
+
+int hallSensorPin = 2;    // define o pino do sensor 
+int ledPin =  13;   // ira ligar o led
 int state = 0;          
 
 void setup() {
@@ -18,4 +25,3 @@ void loop(){
     digitalWrite(ledPin, LOW); 
   }
 }
-
