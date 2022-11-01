@@ -1,6 +1,6 @@
 /*
  INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
- FUNÇÃO:O sensor reage na presença de um campo magnético.
+ FUNÇÃO:  são dispositivos elétricos cuja função é produzir modificações súbitas, porém predeterminadas em um ou mais circuitos elétricos de saída.
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
  */

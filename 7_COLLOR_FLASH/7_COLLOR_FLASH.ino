@@ -1,4 +1,10 @@
-//IFG CAMPUS GOIANIA
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: sensor de led. Se este módulo for alimentado com tensão, uma sequência de cores é emitida automaticamente pelo led
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ */
+
 
 
 int Led = 10;

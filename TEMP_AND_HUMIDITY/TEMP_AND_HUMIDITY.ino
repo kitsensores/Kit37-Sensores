@@ -1,3 +1,11 @@
+
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: sensor que irá medir a temperatura e a umidade do local onde o sensor está.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ */
+
 #include "DHT.h"
 
 #define DHTPIN 2     // Digital pin connected to the DHT sensor
@@ -13,28 +21,28 @@ void setup() {
 }
 
 void loop() {
-  // Wait a few seconds between measurements.
+  // Aguarde alguns segundos entre as medições.
   delay(2000);
 
-  // Reading temperature or humidity takes about 250 milliseconds!
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+ // A leitura de temperatura ou umidade leva cerca de 250 milissegundos!
+  // As leituras do sensor também podem ter até 2 segundos de 'antiga'
   float h = dht.readHumidity();
-  // Read temperature as Celsius (the default)
+ // Lê a temperatura como Celsius (o padrão)
   float t = dht.readTemperature();
 
   
-  // Read temperature as Fahrenheit (isFahrenheit = true)
+  // Lê a temperatura como Fahrenheit 
   float f = dht.readTemperature(true);
 
-  // Check if any reads failed and exit early (to try again).
+  // Verifica se alguma leitura falhou e sai mais cedo.
   if (isnan(h) || isnan(t) || isnan(f)) {
     Serial.println(F("Failed to read from DHT sensor!"));
     return;
   }
 
-  // Compute heat index in Fahrenheit (the default)
+ 
   float hif = dht.computeHeatIndex(f, h);
-  // Compute heat index in Celsius (isFahreheit = false)
+  
   float hic = dht.computeHeatIndex(t, h, false);
 
   Serial.print(F(" Humidity: "));

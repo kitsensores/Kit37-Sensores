@@ -1,6 +1,6 @@
 /*
  INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
- FUNÇÃO:O sensor reage na presença de um campo magnético.
+ FUNÇÃO: componentes eletrônicos mais utilizados para prototipagem de projetos. Esta chave é um tipo de interruptor pulsador (conduz somente quando está pressionado) 
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
  */

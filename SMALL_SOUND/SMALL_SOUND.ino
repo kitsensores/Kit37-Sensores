@@ -1,7 +1,7 @@
 
 /*
  INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
- FUNÇÃO:O sensor reage na presença de um campo magnético.
+ FUNÇÃO: sensor de som que funciona como um microfone que detecta sinais sonoros
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
  */
