@@ -3,6 +3,7 @@
  FUNÇÃO: sensor de sinais sonoros, que quando conectado à microcontroladores emitem os sinais sonoros. 
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://arduinomodules.info/ky-012-active-buzzer-module/ 
  */
 
 

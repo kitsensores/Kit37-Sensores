@@ -1,3 +1,11 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: sensor que irá medir seus batimentos cardíacos,  o sensor fornece é apenas um valor "analógico" de 0 a 1023, informando quanta luz infravermelha o sensor de luz recebe ou, na verdade, quanto algo está sombreando o sensor de luz.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ https://create.arduino.cc/projecthub/Johan_Ha/from-ky-039-to-heart-rate-0abfca 
+ */
+
 #define samp_siz 4
 #define rise_threshold 5
 // Pulse Monitor Test Script
@@ -21,9 +29,9 @@ void loop ()
    ptr = 0;
    while(1)
    {
-     // calculate an average of the sensor
-     // during a 20 ms period (this will eliminate
-     // the 50 Hz noise caused by electric light
+     // calcula uma média do sensor
+     // durante um período de 20 ms
+     // o ruído de 50 Hz causado pela luz elétrica
      n = 0;
      start = millis();
      reader = 0.;
@@ -34,7 +42,8 @@ void loop ()
        now = millis();
      }
      while (now < start + 20);  
-     reader /= n;  // we got an average
+     reader /= n;
+     // we got an average
      // Add the newest measurement to an array
      // and subtract the oldest measurement from the array
      // to maintain a sum of last measurements
@@ -57,8 +66,7 @@ void loop ()
          rising = true;
          first = millis() - last_beat;
          last_beat = millis();
-         // Calculate the weighed average of heartbeat rate
-         // according to the three last beats
+         
          print_value = 60000. / (0.4 * first + 0.3 * second + 0.3 * third);
          Serial.print(print_value);
          Serial.print('\n');
@@ -68,7 +76,7 @@ void loop ()
      }
      else
      {
-       // Ok, the curve is falling
+       
        rising = false;
        rise_count = 0;
      }

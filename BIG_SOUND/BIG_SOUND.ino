@@ -3,10 +3,11 @@
  FUNÇÃO:  sensor de som, ele detecta o som ao seu redor e nos indica 
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://randomnerdtutorials.com/guide-for-microphone-sound-sensor-with-arduino/
  */
 
-int ledPin=13; // define o led 
-int sensorPin=7; // define o sensor 
+int ledPin=13;
+int sensorPin=7;
 boolean val =0;
 
 void setup(){
@@ -18,7 +19,7 @@ void setup(){
 void loop (){
   val =digitalRead(sensorPin);
   Serial.println (val);
-  // when the sensor detects a signal above the threshold value, LED flashes
+ 
   if (val==HIGH) {
     digitalWrite(ledPin, HIGH);
   }

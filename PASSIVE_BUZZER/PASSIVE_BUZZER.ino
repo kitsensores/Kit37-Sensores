@@ -1,3 +1,12 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: sensor que pode produzir uma variedade de tons sonoros 
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ https://arduinomodules.info/ky-006-passive-buzzer-module/
+ */
+
+
 int buzzer = 8; // set the buzzer control digital IO pin
 void setup() {
 	pinMode(buzzer, OUTPUT); // set pin 8 as output

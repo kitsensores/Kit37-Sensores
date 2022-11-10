@@ -4,6 +4,7 @@
  FUNÇÃO: sensor de som que funciona como um microfone que detecta sinais sonoros
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://sensorkit.joy-it.net/en/sensors/ky-038
  */
 
 int led = 13; // define o pino do led 13

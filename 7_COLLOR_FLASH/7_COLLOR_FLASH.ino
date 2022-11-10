@@ -3,6 +3,7 @@
  FUNÇÃO: sensor de led. Se este módulo for alimentado com tensão, uma sequência de cores é emitida automaticamente pelo led
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://sensorkit.joy-it.net/de/sensors/ky-034
  */
 
 
@@ -11,13 +12,13 @@ int Led = 10;
 
 void setup ()
 {
-  pinMode (Led, OUTPUT); // Initialisierung Ausgangspin für die LED
+  pinMode (Led, OUTPUT); 
 }
  
-void loop () //Hauptprogrammschleife
+void loop () 
 {
-  digitalWrite (Led, HIGH); // LED wird eingeschaltet
-  delay (4000); // Wartemodus für 4 Sekunden
-  digitalWrite (Led, LOW); // LED wird ausgeschaltet
-  delay (2000); // Wartemodus für weitere zwei Sekunden in denen die LED dann ausgeschaltet ist
+  digitalWrite (Led, HIGH); 
+  delay (4000); 
+  digitalWrite (Led, LOW); 
+  delay (2000); 
 }

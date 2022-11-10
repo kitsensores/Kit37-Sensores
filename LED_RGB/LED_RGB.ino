@@ -4,6 +4,7 @@
  FUNÇÃO :tem como objetivo mostrar as cores e o resultado das junções das RED(vermelho)GREEN(verde)e BLUE(azul)
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e
  */
 
 

@@ -1,3 +1,12 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: comunicar movimento em 2D (2 eixos) para um Arduino
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ https://create.arduino.cc/projecthub/MinukaThesathYapa/arduino-thumb-joystick-to-processing-92c182 
+ DATA: 31/10/2022
+ */
+
+
 int VRx = A0;
 int VRy = A1;
 int SW = 2;

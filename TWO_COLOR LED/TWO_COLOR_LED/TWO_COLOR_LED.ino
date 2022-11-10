@@ -1,3 +1,14 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: emite luz vermelha e verde. Você pode ajustar a intensidade de cada cor usando PWM.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+https://arduinomodules.info/ky-011-two-color-led-module-3mm/
+ */
+
+
+
+
 int redpin = 9; // pin for red signal
 int greenpin = 10; // pin for green signal
 int val;

@@ -4,6 +4,7 @@
  FUNÇÃO: sensor digital temp mede as mudanças de temperatura com base na resistência do termistor.
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://arduinomodules.info/ky-028-digital-temperature-sensor-module/
  */
 
 

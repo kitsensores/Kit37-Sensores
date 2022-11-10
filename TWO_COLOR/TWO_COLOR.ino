@@ -3,6 +3,7 @@
  FUNÇÃO:  emite as seguintes cores, verde e vermelha.
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://arduinomodules.info/ky-029-dual-color-led-module/
  */
 
 

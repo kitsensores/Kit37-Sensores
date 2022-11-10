@@ -1,3 +1,12 @@
+
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: sensor que detecta a presença de chama, além de ser um sensor infravermelho.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ https://www.electroniclinic.com/flame-sensor-arduino-fire-sensor-arduino-circuit-diagram-programming/
+ */
+ 
 #define F_Sensor 2 // connect DO pin of the flame sensor with the Arduino's digital pin 2
 #define Relay_Buzzer 8 // A relay module is connected with the Arduino's pin number 8
  

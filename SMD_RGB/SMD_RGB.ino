@@ -1,3 +1,12 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: emite uma gama de cores misturando luz vermelha, verde e azul. Cada cor é ajustada usando PWM.
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ https://arduinomodules.info/ky-009-rgb-full-color-led-smd-module/
+ */
+
+
 int redpin = 11; //select the pin for the red LED
 int bluepin =10; // select the pin for the  blue LED
 int greenpin = 9;// select the pin for the green LED

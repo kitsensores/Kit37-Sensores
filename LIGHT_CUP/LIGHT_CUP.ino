@@ -1,3 +1,11 @@
+/*
+ INSTITUTO FEDERAL DE GOIAS - IFG CAMPUS GOIANIA 
+ FUNÇÃO: o sensor de  um interruptor de mercúrio é um tipo de interruptor em que os contatos são fechados por uma gota de mercúrio
+ ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
+ DATA: 31/10/2022
+ https://arduinomodules.info/ky-027-magic-light-cup-module/
+ */
+
 int ledPinA = 9;
 int switchPinA = 8;
 int switchStateA = 0;

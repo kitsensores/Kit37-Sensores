@@ -3,6 +3,7 @@
  FUNÇÃO:O sensor reage na presença de um campo magnético.
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://www.electronics-lab.com/project/using-hall-effect-sensor-arduino/
  */
 
 int hallSensorPin = 2;    // define o pino do sensor 

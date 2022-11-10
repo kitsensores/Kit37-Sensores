@@ -3,6 +3,7 @@
  FUNÇÃO: é usado para medir a intensidade da luz.
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://arduinomodules.info/ky-018-photoresistor-module/
  */
 
 

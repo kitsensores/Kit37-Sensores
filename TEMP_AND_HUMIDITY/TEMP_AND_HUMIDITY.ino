@@ -4,6 +4,7 @@
  FUNÇÃO: sensor que irá medir a temperatura e a umidade do local onde o sensor está.
  ESTAGIARIOS: RHAMON LUCAS V. COSTA e ISABELA R. DE OLIVEIRA
  DATA: 31/10/2022
+ https://create.arduino.cc/projecthub/pibots555/how-to-connect-dht11-sensor-with-arduino-uno-f4d239
  */
 
 #include "DHT.h"
