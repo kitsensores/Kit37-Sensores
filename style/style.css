@@ -1,2 +1,14 @@
 @charset 'utf-8';
 
+body {
+    background-image: url('../imagemexemplo.jpg');
+}
+
+h1 {
+    border: 10px;
+    border-radius: 5px;
+    background-color: rgba(140, 127, 255, 0.767);
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    border
+}
