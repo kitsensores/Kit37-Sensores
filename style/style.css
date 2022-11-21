@@ -1,14 +1,48 @@
 @charset 'utf-8';
 
 body {
-    background-image: url('../imagemexemplo.jpg');
+ /*   background-image: url('../imagemexemplo.jpg') fixed no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 h1 {
-    border: 10px;
+    border: 1px;
     border-radius: 5px;
     background-color: rgba(140, 127, 255, 0.767);
     text-align: center;
     border-color: rgb(255, 255, 255);
-    border
+    
 }
+
+/*.wrap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(128, 0, 128, 0.658);
+    background-size: 100px;
+    transform: translateY(0);
+    animation: anim 5s ease infinite;
+    border-radius: 10%;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}*/
