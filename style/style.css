@@ -1,29 +1,21 @@
 @charset 'utf-8';
 
 body {
-    background-image: url('../imagemexemplo.jpg');
+    background-image: url('../fundocontador.jpg');
     background-repeat: no-repeat;
+    
 }
 
-/*h1 {
-    border: 5px;
-    border-radius: 5px;
-    background-color: rgba(140, 127, 255, 0.767);
+h1 {
+    border: 100px;
+    border-radius: 100px;
+    background-color:  #2B6944;;
     text-align: center;
     border-color: rgb(255, 255, 255);
 
-}*/
-
-h2 {
-    position: absolute;
-    width: 1440px;
-    height: 111px;
-    left: 0px;
-    top: 0px;
-    
-    background: #2B6944;
-
 }
+
+
 
 /*.wrap {
     width: 100vw;
