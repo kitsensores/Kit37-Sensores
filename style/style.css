@@ -1,11 +1,19 @@
 @charset 'utf-8';
 
-body {
+body { 
     background-image: url('../fundocontador.jpg');
     background-repeat: no-repeat;
     
 }
-
+.square {
+    width: 300px;
+    height: 300px;
+    background-image: url(firefox_logo.png);
+    border: solid 2px;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    background-size: 150px;
+  }
 h1 {
     border: 100px;
     border-radius: 100px;
