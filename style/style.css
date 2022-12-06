@@ -1,10 +1,21 @@
 @charset 'utf-8';
 
 body { 
-    background-image: url('../fundocontador.jpg');
-    background-repeat: no-repeat;
-    
+    background-image: url('../fundocontador.jpg') ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
 }
+
+
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+
 .square {
     width: 300px;
     height: 300px;
