@@ -1,93 +1,54 @@
 @charset 'utf-8';
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body { 
     background-image: url('../fundocontador.jpg') ;
     background-repeat: no-repeat ;
     background-attachment: fixed;
 }
 
+header {
+    min-height: 150px;
+    background-color: #2B6944;
+    text-align: center;
+}
+
+header > h1 {
+    margin-bottom: 20px;
+
+}
+
+
 p {
     color: white;
 }
 
-ul {
-    color:white;
-}
-
-.square {
-    width: 300px;
-    height: 300px;
-    background-image: url(firefox_logo.png);
-    border: solid 2px;
-    text-shadow: white 0px 0px 2px;
-    font-size: 16px;
-    background-size: 150px;
-  }
 
 h1 {
     border: 100px;
     border-radius: 100px;
-    background-color:  #2B6944;;
+    background-color:  #2B6944;
     text-align: center;
     border-color: rgb(255, 255, 255);
 
 }
 
-ul .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-li .menu {
-    float: left;
+nav {
+    background-color: #356347;
+    padding: 10px;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+nav > a {
+    color: aliceblue;
+    padding: 10px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+nav > a:hover {
+    background-color: #49a36d;
+
 }
-
-
-
-/*.wrap {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.block {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(128, 0, 128, 0.658);
-    background-size: 100px;
-    transform: translateY(0);
-    animation: anim 5s ease infinite;
-    border-radius: 10%;
-}
-
-@keyframes anim {
-    0% {
-        transform: translateY(0);
-
-    }
-
-    50% {
-        transform: translateY(-40px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}*/
