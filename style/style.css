@@ -1,4 +1,5 @@
 @charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 * {
     margin: 0px;
@@ -18,11 +19,20 @@ header {
 }
 
 header > h1 {
-    margin-bottom: 20px;
-
+    margin-bottom: 20px; 
+    padding-top: 55px;
+    font-family: 'Calistoga', cursive;
+    background-color:  #2B6944;
 }
 
+main {
+    background-color: #738b7d;
+    height: 80vh;
+    width: 70vw;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
 
+}
 p {
     color: white;
 }
@@ -31,10 +41,17 @@ p {
 h1 {
     border: 100px;
     border-radius: 100px;
-    background-color:  #2B6944;
+    
     text-align: center;
     border-color: rgb(255, 255, 255);
 
+}
+
+
+img {
+    border-radius: 8px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 nav {
