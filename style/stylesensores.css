@@ -124,7 +124,6 @@ footer strong {
     flex-direction: column;
     gap:5px;
     position: fixed;
-    overflow:auto;
   }
   
   .dropdownSet2 {
@@ -132,7 +131,6 @@ footer strong {
     flex-direction: column;
     gap:5px;
     position: fixed;
-    overflow:auto;
     right: 0;
   }
  
