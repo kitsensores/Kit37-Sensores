@@ -4,12 +4,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
 
 body { 
     background-image: url('../fundocontador.jpg') ;
     background-repeat: no-repeat ;
     background-attachment: fixed;
+
+    font-family: "Inter", "Sans-serif" ;
 }
 
 header {
@@ -44,9 +48,16 @@ nav > a:hover {
 main {
     background-color: #738b7d;
     height: 80vh;
-    width: 70vw;
+    width: 50vw;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
+
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
 
 }
 
@@ -75,6 +86,18 @@ footer {
     background-color:  #738b7d;
     color: white;
     text-align: center;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.presentation {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 

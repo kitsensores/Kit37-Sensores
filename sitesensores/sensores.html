@@ -444,12 +444,183 @@
 
 
         </p>
+        <h1>SMALL SOUND</h1>
+
+        <p>O small sound é um pequeno sensor de som que funciona como um microfone que detecta sinais sonoros. O sensor detecta sinais sonoros e fornecerá saída digital ou analógica. O sensor de som pode ser usado para fazer projetos emocionantes, como o interruptor de palmas. Este artigo fará com que o led brilhe na detecção de som. 
+
+            <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+            <ul class="lista">
+                <li>1 Placa arduino (UNO);</li>
+                <li>7 cabos jumpers (macho-macho);</li>
+                <li>1 sensor small sound;   </li>
+                <li>1 resistor de 220Ω</li>
+                <li>1 protoboard;</li>
+                <li>1 cabo USB MD9</li>
+                <li>Utilizar software arduino</li>
+        </ul>
+        <br>
+        
+        <p>
+          Pegue seu arduino e conecte os cabos jumpers nos seguintes terminais: 5V, GND, A0, 13, 2.          
+            <br>
+            Em seguida, conecte o jumper de 5 V na entrada (+) do sensor; o jumper GND conectado no (-) da protoboard;  o jumper A0 conectado na porta A0 do sensor; o jumper conectado na porta digital 13 ligado no resistor de 220 Ohms que se conecta na perna longa do LED, e a outra perna do led ligada no GND da protoboard, ou seja, em (-).<br>
+
+            E o jumper 2 conectado na porta D0 do sensor.
+
+
+            <br>
+            
+            Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+            Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+        <br>
+        Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. 
+
+            Abaixo está o código de programação a ser usado. <br></p>
+            <br>
+            <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/SMALL_SOUND/SMALL_SOUND.ino">Clique aqui</a>.</p>
+        <br>
+      </p>
+      <h1>DIGITAL TEMP</h1>
+
+      <p>O sensor digital temp mede as mudanças de temperatura com base na resistência do termistor. Este módulo tem saídas digitais e analógicas, há um potenciômetro para ajustar o limite de detecção na interface digital.  
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>4 cabos jumpers (macho-macho);</li>
+              <li>1 sensor digital temp;  </li>
+              <li>1 protoboard;</li>
+              <li>1 cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue seu arduino e conecte seus cabos jumpers nos seguintes terminais: 2, GND, 5V, A0.         
+          <br>
+          Na sua protoboard conecte seu sensor e no pino A0 conecte o cabo jumper do terminal A0, o cabo do terminal GND conecte no pino G, no pino (+) conecte o cabo do terminal 5V, o cabo do terminal 2 conecte no pino D0.<br>
+
+
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. 
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/DIGITAL_TEMP/DIGITAL_TEMP.ino">Clique aqui</a>.</p>
+      <br>
+
+
+      <h1>TILT SWITCH</h1>
+
+      <p>O Tilt Switch é um sensor de inclinação.
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>              
+              <li>3 Cabos jumpers (macho-fêmea);  </li>
+              <li>2 Cabos jumpers (macho-macho);</li>
+              <li>1 Resistor; </li>
+              <li>1 Led</li>
+              <li>1 Tilt switch sensor;</li>
+              <li>1 Protoboard;</li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue  o sensor tilt switch e conecte um jumper(macho-fêmea) na pino S e a outra ponta conecte no pino ~10 da placa arduino UNO.
+      
+          <br>
+          Pegue outro jumper(macho-fêmea)  e  conecte no sensor tilt switch no pino do meio e a outra ponta conecte no pino 5V da placa arduino UNO.<br>
+          Pegue outro jumper(macho-fêmea)  e  conecte no sensor tilt switch no pino do – e a outra ponta conecte no pino GND da placa arduino UNO. <br>
+          Agora pegue o resistor e conecte no protoboard;
+          Pegue o led e conecte também na protoboard, de forma que o resistor fique em série com led; <br>
+          Pegue um jumper(macho-macho) e conecte na outra ponta do led, e a outra ponta do jumper conecte ao pino GND da placa arduino UNO. <br>
+          Pegue outro jumper(macho-macho) e conecte ao outro lado do resistor, e a outra ponta do jumper conecte ao pino 12 da placa arduino UNO. <br>
+
+
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Para finalizar, agora  veja se ao inclinar o sensor e o mercúrio, de modo que o mercúrio de dentro fique para baixo, o led acenderá e quando a inclinação for para cima o led apagará.
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/TILT_SWITCH/TILT_SWITCH.ino">Clique aqui</a>.</p>
+      <br>
+
+
+
+
+      <h1>ANALOG HALL </h1>
+
+      <p>O  Analog Hall é um sensor que reage na presença de um campo magnético.
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>3 Cabos jumpers (macho-fêmea);  </li>
+              <li>2 Cabos jumpers (macho-macho);</li>
+              <li>1 Resistor; </li>
+              <li>1 Led</li>
+              <li>1 Analog hall sensor;</li>
+              <li>1 Imã (Campo magnético)   </li>
+              <li>1 Protoboard;</li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue o sensor e conecte um jumper(macho-fêmea) no pino S e a outra ponta conecte no pino 2 da placa arduino UNO.
+      
+          <br>
+          Pegue outro jumper(macho-fêmea)  e  conecte no sensor tilt switch no pino do meio e a outra ponta conecte no pino 5V da placa arduino UNO.<br>
+          Pegue outro jumper(macho-fêmea)  conecte no pino do – do sensor  e a outra ponta conecte no pino GND da placa arduino UNO. <br>
+          Agora pegue o resistor e conecte no protoboard;
+          Pegue o led e conecte também na protoboard, de forma que o resistor fique em série com led; <br>
+          Pegue um jumper(macho-macho) e conecte na outra ponta do led, e a outra ponta do jumper conecte ao pino GND da placa arduino UNO. <br>
+          Pegue outro jumper(macho-macho) e conecte ao outro lado do resistor, e a outra ponta do jumper conecte ao pino 13 da placa arduino UNO. <br>
+
+
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Para finalizar, agora  veja se ao aproximar o ímã(campo magnético) do sensor, o led acenderá.
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/ANALOG_HALL/ANALOG_HALL.ino">Clique aqui</a>.</p>
+      <br>
+
+
 
     </main>
 
     <footer> 
-        <p>Este projeto foi feito no IFG - campus goiania
-            alunos: Isabela Rodrigues de Oliveira e Rhamon Lucas Vieira Costa
+        <p>Este projeto foi feito no IFG - Campus Goiânia
+            Alunos: Isabela Rodrigues de Oliveira e Rhamon Lucas Vieira Costa
 
     </p>
 
