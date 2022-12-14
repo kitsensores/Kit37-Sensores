@@ -591,6 +591,139 @@
       <br>
 
 
+      <h1>HALL MAGNETIC</h1>
+
+      <p> Hall magnetic é o sensor que detecta campos magnéticos, usando a saída digital do sensor e o LED de status integrado. Este transistor se interconecta se o módulo estiver posicionado em um campo magnético
+
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>3 Cabos jumpers (macho-fêmea);  </li>
+              <li>2 Cabos jumpers (macho-macho);</li>
+              <li>1 sensor hall magnetic;  </li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Conecte os cabos jumpers em sua placa arduino nos seguintes terminais 4, GND, 5V.
+      
+          <br>
+          No seu sensor conecte o cabo jumper que está no terminal 5V no pino do meio, no pino S conecte o cabo do terminal 4, já do terminal GND conecte no pino (-). <br>
+
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/HALL_MAGNETIC/HALL_MAGNETIC.ino">Clique aqui</a>.</p>
+      <br>
+
+      <br> Veja na imagem abaixo do <em> MONITOT SERIAL </em> <br>
+      <br> <img src="../HALL_MAGNETIC/Hall_magnetic.png" alt=""> <br>
+
+
+
+
+      <h1>LIGHT CUP</h1>
+
+      <p>O Light cup é o sensor de  um interruptor de mercúrio é um tipo de interruptor em que os contatos são fechados por uma gota de mercúrio. Se o interruptor estiver inclinado, o mercúrio fluirá e abrirá os contatos.
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>8 Cabos jumpers (macho-macho);</li>
+              <li>2  Sensores Light Cup;  </li>
+              <li>1 Protoboard;</li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue o sensor e coloque-o no protoboard, após pegue um jumper e conecte no pino L do sensor na protoboard, e a outra ponta conecte-o no pino ~9 da placa arduino UNO.
+      
+          <br>
+          Pegue um jumper e conecte no pino S  do sensor na protoboard, e a outra ponta conecte-o no pino 8 da placa arduino UNO.<br>
+          Pegue um jumper e conecte no pino +  do sensor na protoboard, e a outra ponta conecte-o no pino 5V da placa arduino UNO. <br>
+          Pegue um jumper e conecte no pino G do sensor na protoboard, e a outra ponta conecte-o no pino GND da placa arduino UNO. <br>
+
+          Feito isso, agora pegue o outro sensor light cup e conecte na protoboard, depois repita o mesmo processo feito na montagem anterior com a seguinte diferença, pegue um jumper e conecte  ele em série com um outro jumper do pino 5V  puxe a corrente para o + do novo sensor, coloque o novo sensor de forma que eles fiquem voltados de direções opostas um para o outro. 
+
+
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Observe que o sensor Light cup irá responder ao comando. quando o interruptor estiver inclinado, o mercúrio fluirá e abrirá os contatos, e então o led ficará vermelho.
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/LIGHT_CUP/LIGHT_CUP.ino">Clique aqui</a>.</p>
+      <br>
+
+      
+
+      <h1>TOUCH SENSOR</h1>
+
+      <p>O Touch sensor no Arduino emitirá o valor analógico enviado pelo módulo para o monitor serial. Se o valor atingir o setpoint de limite definido por VR1, o LED embutido do Arduino também acenderá. Ajuste o limiar girando VR1.
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>4 Cabos jumpers (macho-fêmea);  </li>
+              <li>1 sensor touch;              </li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue sua placa arduino e conecte seus cabos jumpers nos terminais 5V, 8, A0 e GND.
+
+          <br>
+
+          O cabo que está conectado no terminal 8 conecte no pino(+) do seu sensor,, o que está no terminal GND conecte no pino GND, no pino A0 conecte o cabo jumper que está no terminal A0, o cabo do terminal 5V conecte no terminal DO do sensor.
+         <br>
+        
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/TOUCH%20SENSOR/TOUCH%20SENSOR.ino">Clique aqui</a>.</p>
+      <br>
+     
+      Após efetuar o código em seu software verifique seu monitor serial e ele estará assim: <br>
+
+      <br> Veja na imagem abaixo do <em> MONITOT SERIAL </em> <br>
+      <br> <img src="../TOUCH SENSOR/Touch- imagem.png" alt=""> <br>
+
+
+
+
 
     </main>
 
