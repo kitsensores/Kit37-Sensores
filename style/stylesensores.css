@@ -1,6 +1,10 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
+:root {
+    --fontepadrao:Arial, Verdana, Helvetica, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,23 +16,25 @@ body {
     background-image: url('../fundocontador.jpg') ;
     background-repeat: no-repeat ;
     background-attachment: fixed;
-
-    position: relative;
 }
 
 /* Cabeçalho */
 header {
     min-height: 150px;
+    padding-top: 30px;
     background-image: linear-gradient(to top, #2B6944, #738b7d);
     text-align: center;
 }
 
 header > h1 {
-    margin-bottom: 20px; 
-    padding-top: 55px;
     font-family: 'Calistoga', cursive;
-
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    /* text-shadow: 0px 0px 3px black; */
+    margin-bottom: 20px;
 }
+
 
 /* Barra de navegação */
 nav {
@@ -59,19 +65,41 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
 
-p {
-    color: white;
+main h1{
+    /* color: var(--cor5); */
+    /* font-family: var(--fonte-android); */
+    font-size: 2em;
+    padding-bottom: 10px;
 }
 
-
-h1 {
-    border: 100px;
-    border-radius: 100px;
-    
-    text-align: center;
-    border-color: rgb(255, 255, 255);
-
+main h2 {
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    font-size: 1.5em;
+    /* background-image: linear-gradient(to right, var(--cor1), transparent); */
+    padding-left: 5px;
+    border-radius: 3px 0px 0px 3px;
 }
+
+main p {
+    font-family: var(--fontepadrao);
+    margin: 15px 0px;
+    text-align: justify;   
+    text-indent: 35px;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main ul {
+    list-style-position: inside;
+    margin-left: 50px;
+}
+
 
 main img {
     width: 100%;
@@ -89,6 +117,7 @@ footer strong {
     color: var(--cor3);
 }
 
+/* listagem sensores */
 .dropdownSet {
     display: flex;
     flex-direction: column;
