@@ -83,7 +83,7 @@ main h2 {
     /* background-image: linear-gradient(to right, var(--cor1), transparent); */
     padding-left: 5px;
     border-radius: 3px 0px 0px 3px;
-    Text-align: center
+    Text-align: center 
 }
 
 main p {
