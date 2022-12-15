@@ -40,9 +40,15 @@ nav > a {
 main {
     background-color: #738b7d;
     height: 80vh;
-    width: 70vw;
+    width: 50vw;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
+
+    padding:100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 
@@ -79,6 +85,16 @@ footer {
     text-align: center;
 }
 
+.introduction {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction p {
+    font-size: 22pt;
+}
 
 
 

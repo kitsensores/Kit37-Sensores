@@ -63,29 +63,33 @@ main {
     padding: 25px;
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    Text-align: center
 }
 
 main h1{
     /* color: var(--cor5); */
-    /* font-family: var(--fonte-android); */
+    font-family: var(--fontepadrao);
     font-size: 2em;
     padding-bottom: 10px;
+    Text-align: center
+
     
 }
 
 main h2 {
     color: var(--cor4);
-    font-family: var(--fonte-android);
+    font-family: var(--fontepadrao);
     font-size: 1.5em;
     /* background-image: linear-gradient(to right, var(--cor1), transparent); */
     padding-left: 5px;
     border-radius: 3px 0px 0px 3px;
+    Text-align: center
 }
 
 main p {
     font-family: var(--fontepadrao);
     margin: 15px 0px;
-    text-align: justify;   
+    text-align: center;   
     text-indent: 35px;
     font-size: 1em;
     line-height: 1.7em;
@@ -94,17 +98,21 @@ main p {
 main a {
     text-decoration: none;
     font-weight: bold;
+    Text-align: center
 }
 
 main ul {
     list-style-position: inside;
     margin-left: 50px;
+    Text-align: center
+    var(--fontepadrao)
 }
 
 
 main img {
     width: 100%;
     height: auto;
+    Text-align: center
 }
 
 /* Rotapé */
@@ -124,6 +132,7 @@ footer strong {
     flex-direction: column;
     gap:5px;
     position: fixed;
+    Text-align: center
   }
   
   .dropdownSet2 {
@@ -132,6 +141,7 @@ footer strong {
     gap:5px;
     position: fixed;
     right: 0;
+    Text-align: center
   }
  
  
@@ -144,6 +154,7 @@ footer strong {
     cursor: pointer;
     width: 200px;
     transition-duration: 0.5s;
+    Text-align: center
   }
    
 
