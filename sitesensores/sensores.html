@@ -724,6 +724,214 @@
 
 
 
+      <h1>IR RECEIVER</h1>
+
+      <p>O Ir receiver é um sensor receptor, muito usado para receber sinais de comando de controles remotos.
+
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>3 Cabos jumpers (macho-fêmea);  </li>
+              <li>1 Ir receiver;       </li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue o sensor e conecte uma ponta do jumper no pino – (negativo) do sensor e a outra ponta conecte no pino GND da placa arduino UNO.
+
+      
+          <br>
+          Pegue outro jumper e conecte-o no pino do MEIO do sensor e a outra ponta conecte no pino 5V da placa arduino UNO.<br>
+          Pegue outro jumper e conecte-o no pino S do sensor e a outra ponta conecte no pino 7 da placa arduino UNO.<br>
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Após isso, utilize um controle e de um comando, e você verá que um dos leds do sensor irá piscar indicando que ele recebeu o sinal.
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/IR%20_RECEIVER/IR%20_RECEIVER.ino">Clique aqui</a>.</p>
+      <br>
+
+
+
+      <h1>REED SWITCH</h1>
+
+      <p>O Reed switch é um sensor que reage através da presença de um campo eletromagnético(imã).
+
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>3 Cabos jumpers (macho-fêmea);  </li>
+              <li>2 Cabos jumpers (macho-macho);</li>
+              <li>1 Resistor de 220 ohms;</li>
+              <li>1 Led</li>
+              <li>1 Reed switch sensor;</li>
+              <li>1 Imã (Campo magnético)   </li>
+              <li>1 Protoboard;</li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue um jumper(macho-fêmea) e conecte-o no sensor reed switch no pino DO e a outra ponta conecte na placa arduino UNO no pino 2.
+
+          <br>
+          Pegue outro jumper(macho-fêmea) e conecte-o no sensor reed switch no pino + e a outra ponta conecte na placa arduino UNO no pino 5V.<br>
+          Pegue outro jumper(macho-fêmea) e conecte-o no sensor reed switch no pino G e a outra ponta conecte na placa arduino UNO no pino GND.
+          <br>
+          Agora pegue o resistor e conecte no protoboard;
+          Pegue o led e conecte também na protoboard, de forma que o resistor fique em série com led; <br>
+          Pegue um jumper(macho-macho) e conecte na outra ponta do led, e a outra ponta do jumper conecte ao pino GND da placa arduino UNO. <br>
+          Pegue outro jumper(macho-macho) e conecte na outra ponta do led de forma que o circuito fique fechado, e a outra ponta conecte no pino 12 da placa arduino UNO; <br>
+
+
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Para finalizar, agora  veja se ao aproximar o ímã(campo magnético) do sensor, o led acenderá.
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/REED_SWITCH/REED_SWITCH.ino">Clique aqui</a>.</p>
+      <br>
+
+
+
+
+ <h1>LIGHT BLOCKING</h1>
+
+      <p>O Light blocking é um sensor que  usa o detector em forma de controle (IR para detectar objetos que se movem através dos módulos U.  
+
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>3 Cabos jumpers (macho-fêmea);  </li>
+              <li>2 Cabos jumpers (macho-macho);</li>
+              <li>1 Resistor de 220 ohms;</li>
+              <li>1 Led</li>
+              <li>1 Light blocking;  </li>
+              <li>1 Protoboard;</li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue o sensor light blocking e conecte um jumper(macho-fêmea) no pino da esquerda e a outra ponta conecte no pino GND da placa arduino UNO.
+
+
+          <br>
+          Agora pegue outro  jumper(macho-fêmea) e conecte no pino do meio do sensor e a outra ponta conecte no pino 5V da placa arduino UNO.<br>
+          Pegue outro  jumper(macho-fêmea) e conecte no pino da direita e a outra ponta conecte no pino 0 da placa arduino UNO.
+
+          <br>
+          Feito isso, pegue a protoboard e conecte o led e um resistor em série, após pegue um jumper(macho-macho) e conecte na outra perna do resistor  e a outra ponta conecte no pino GND da placa arduino UNO. <br>
+
+         
+          Pegue outro jumper(macho-macho) e conecte-o em série com o led e a outra ponta conecte no pino 13 da placa arduino UNO.<br> 
+
+          <br>
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Veja se ao dar o comando da programação o led do sensor irá piscar, após toque no led e veja se ele pisca. <br>
+
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/LIGHT_BLOCKING/LIGHT_BLOCKING.ino">Clique aqui</a>.</p>
+      <br>
+
+
+
+
+      <h1>JOYSTICK</h1>
+
+      <p> O objetivo do sensor joystick é comunicar movimento em 2D (2 eixos) para um Arduino. Esses potenciômetros são usados ​​como divisores de tensão ajustáveis ​​duplos, fornecendo entrada analógica de 2 eixos em forma de bastão de controle.
+
+
+
+          <br> </p> <br>  <h2>COMPONENTES:</h2>
+
+          <ul class="lista">
+              <li>1 Placa arduino (UNO);</li>
+              <li>5 Cabos jumpers (macho-fêmea);  </li>
+              <li>1 sensor joystick;    </li>
+              <li>1 Cabo USB MD9</li>
+              <li>Utilizar software arduino</li>
+      </ul>
+      <br>
+      
+      <p>
+        Pegue sua placa arduino e conecte no terminal 2, GND, A0, A1 E 5V seus cabos jumpers.
+
+
+          <br>
+
+          Pegue o cabo que está no terminal 2 e conecte a outra ponta no pino SW do sensor, o do terminal GND conecte no pino GND, no pino de 5V conecte no cabo do terminal 5V, no pino VRy no cabo do terminal A1, no terminal A0 conecte no pino VRx.
+         <br>
+        
+          
+          Feito isso, conecte o cabo USB MD9, ao arduino UNO, e ligue-o ao computador.
+          Abra o software arduino, copie e cole o código abaixo em sua tela inicial, selecione a porta correta, da seguinte forma: na aba superior, vá em ferramentas>>> role até placas e selecione “arduino UNO”; após role para baixo e clique em “porta” e  selecione a porta correspondente.
+          Agora clique em ferramentas>>> e após clique em MONITOR SERIAL>>> assim irá abrir e indicara na tela os comandos que você faz no sensor.
+      <br>
+      Na aba principal, clique em “verificar” e logo após “carregar” e veja o sensor ter seu funcionamento. <br>
+      Agora clique em ferramentas>>> e após clique em MONITOR SERIAL>>> assim irá abrir e indicara na tela os comandos que você faz no sensor. <br>
+
+          Abaixo está o código de programação a ser usado. <br></p>
+          <br>
+          <p>Veja os códigos no site do git hub <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/JOYSTICK/JOYSTICK.ino">Clique aqui</a>.</p>
+      <br>
+     
+      Após efetuar o código em seu software verifique seu monitor serial e ele estará assim: <br>
+
+      <br> Veja na imagem abaixo do <em> MONITOT SERIAL </em> <br>
+
+      <em> Execute seu código no software arduino, abra seu monitor serial, ao girar seu stick para a direita seu monitor estará assim: </em>
+      <br> <img src="../JOYSTICK/Joystick1.png" alt=""> <br>
+      
+
+      <br><em>Ao girar para a esquerda ele estará assim:  </em>
+      <br> <img src="../JOYSTICK/Joystick2.png" alt=""> <br>
+
+
+      <br><em> Agora ao movê-lo para a cima: </em>
+      <br> <img src="../JOYSTICK/Joystick3.png" alt=""> <br>
+      
+
+       <br><em> Para baixo: </em>
+      <br> <img src="../JOYSTICK/Joystick4.png" alt=""> <br>
+
+
+
+
 
     </main>
 
