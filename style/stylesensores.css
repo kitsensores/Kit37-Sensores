@@ -120,6 +120,7 @@ footer {
     background-color:  #738b7d;
     color: white;
     text-align: center;
+    font-family: var(--fontepadrao);
 }
 
 footer strong {
