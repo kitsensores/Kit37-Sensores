@@ -76,6 +76,18 @@ main h1{
     
 }
 
+header img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;    
+}
+
+header .logo2 {
+    left: 95%;
+}
+
+
 main h2 {
     color: var(--cor4);
     font-family: var(--fontepadrao);
