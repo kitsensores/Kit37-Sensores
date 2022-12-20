@@ -36,6 +36,14 @@ header > h1 {
 }
 
 
+header .logo2 {
+    left: 0.3%;
+ 
+}
+header .logo1 {
+left: 97%;
+    
+}
 /* Barra de navegação */
 nav {
     background-color: #2B6944;
@@ -82,3 +90,10 @@ main {
 
 }
 
+/* Rotapé */
+footer {
+    background-color:  #738b7d;
+    color: white;
+    text-align: center;
+    font-family: var(--fontepadrao);
+}

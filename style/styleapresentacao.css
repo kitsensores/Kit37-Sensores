@@ -35,8 +35,14 @@ header img {
     position: absolute;    
 }
 
+
 header .logo2 {
-    left: 95%;
+    left: 0.3%;
+ 
+}
+header .logo1 {
+left: 97%;
+    
 }
 
 nav {

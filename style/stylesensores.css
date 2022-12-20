@@ -122,9 +122,19 @@ main ul {
 
 
 main img {
-    width: 100%;
+    width: 95%;
     height: auto;
     Text-align: center
+
+}
+
+header .logo2 {
+    left: 0.3%;
+ 
+}
+header .logo1 {
+left: 97%;
+    
 }
 
 /* Rotapé */
@@ -136,7 +146,7 @@ footer {
 }
 
 footer strong {
-    color: var(--cor3);
+    color: var(--fontepadrao);
 }
 
 /* listagem sensores */
@@ -196,3 +206,5 @@ footer strong {
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+
