@@ -23,7 +23,17 @@ header > h1 {
     margin-bottom: 20px; 
     padding-top: 55px;
     font-family: 'Calistoga', cursive;
+}
 
+header img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;    
+}
+
+header .logo2 {
+    left: 95%;
 }
 
 nav {

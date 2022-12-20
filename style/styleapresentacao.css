@@ -28,6 +28,16 @@ header > h1 {
     font-family: 'Calistoga', cursive;
 
 }
+header img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;    
+}
+
+header .logo2 {
+    left: 95%;
+}
 
 nav {
     background-color: #2B6944;
