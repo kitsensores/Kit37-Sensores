@@ -37,23 +37,62 @@
 
      </p>
      <p>A promessa, portanto, é de criar uma comunicação autônoma entre esses produtos, o que pode significar maior velocidade e segurança para a casa conectada. Entre as principais aplicações da tecnologia estão: hubs domésticos, iluminação inteligente, controle de temperatura, controle de segurança e coleta de dados.
+ <br> <br>
+        <h2>Proposta inicial e testes</h2>
+<p>A proposta inicial do projeto era desenvolver um sistema de irrigação automática utilizando o protocolo ZIGBEE como meio de comunicação, porém  como não tinha experiência alguma com o equipamento, optei por iniciar o projeto com algo mais simples, visando aprender a configurar os módulos Xbee’s com mais facilidade e  responder questões como: <br> <br>
+ 
+    I. Qual a distância máxima entre os módulos, em área livre, para que mantenham uma conexão estável? <br> <br>
+    II. Qual a distância máxima entre os módulos, com obstáculos, para que mantenham uma conexão estável? <br> <br>
+    III. É possível criar uma rede com mais de dois módulos? <br> <br>
+    Com isso, o objetivo  passou a ser, nesse primeiro momento, controlar o acionamento de leds por meio de botoeiras, utilizando como base as placas XB24-B e dois arduinos UNO. Iniciei o processo de configuração dos módulos usando a ferramenta de software XCTU, onde enfrentei problemas, alguns dos módulos que me foram disponibilizados para trabalhar não funcionavam, o que atrasou o progresso do projeto. No entanto, consegui aprender a configurá-los e por fim realizei os testes, os resultados estão a seguir: <br>   
 
-     <br> </p><br> 
+</p> <br>
+ <img src="../tabela_Zigbee.png" alt=""> <br>
+ <p>Tabela 01 - Resultados dos testes com o XB24-B.</p>
+
+        <br> <br> <br>
+
+        <h3>Tutorial de configuração no XCTU</h3> 
+         </p><br> 
+ 
+     <p>1- Abra o XCTU <br>
+        2- Click no botão “Discover radio modules connected to your machine”.
+        </p>
+     <img src="../Zigbee4.jpeg" alt="">
+
+     <br>
+
+    <p>3- Em seguida clique em “next” e “finish”.</p> <br>
+
+
+    <img src="../Zigbee5.jpeg" alt="">
+<p>4- Por fim click em “Add selected devices”. <br>
+
+   5- Clique no ícone do Xbee para configurá-lo. <br>
+   6- Clique em update.
+    </p>
+
+
+     
+
+     <img src="../Zigbeetutorial1.jpeg" alt="" > <br> 
+
+     <p>7- Selecione o modelo Xbee que deverá ser configurado, no caso do LabMaker os modelos que funcionam são os XB24-B. <br>
+        8- Selecione a função desejada para o módulo (Coordenador ou Roteador).
+    </p>   
+
+     <img src="../Zigbeetutorial2.jpeg" alt="" > <br>
+
+     <p>9- Atenção - O módulo pode ser configurado no modo API e no modo AT, porém de acordo com minhas experiências o modo AT é a melhor opção.    </p> <br>
+      
+     <h3>Códigos</h3>
 
      <p>Código Botões: <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/ZIGBEE/Zigbee_BOT%C3%95ES/Zigbee_BOT%C3%95ES.ino">Código</a></p>
 
 
      <p>Código Controle de Leds: <a href="https://github.com/kitsensores/Kit37-Sensores/blob/main/ZIGBEE/Zigbee_CONTROLE_DE_LEDS/Zigbee_CONTROLE_DE_LEDS.ino">Código</a></p>
-
-
-     <p> Tutorial de configuração no XCTU.</p><br>
-
-     <img src="../Zigbeetutorial1.jpeg" alt="" > <br>
-
-     <p> Tutorial de configuração no XCTU.</p><br>
-
-     <img src="../Zigbeetutorial2.jpeg" alt="" > <br>
      <footer>
+        <p> O projeto tutorial Zigbee foi desenvolvido pelo aluno Rhyan Roberto Feirreira Santos.</p>
         <p>Este projeto foi feito no IFG - Campus Goiânia
           <br>  Alunos: Isabela Rodrigues de Oliveira e Rhamon Lucas Vieira Costa
 
